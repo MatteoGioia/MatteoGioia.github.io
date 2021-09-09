@@ -1,0 +1,44 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Matteo Gioia
+    - name: Languages
+      value: Italian, English
+
+- title: Education
+  type: time_table
+  contents:
+    - title: PhD in Data Science
+      institution: Sapienza University of Rome, Italy
+      year: "Nov 2023 - now"
+      description:
+        - Supervised by Prof. Fabio Galasso (PINLab)
+    - title: M.Sc. in Computer Science
+      institution: Sapienza University of Rome, Italy
+      year: "Oct 2021 - Oct 2023"
+    - title: B.Sc. in Computer Science
+      institution: University of L'Aquila, Italy
+      year: "Sep 2018 - Oct 2021"
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: Research Intern
+      institution: ItalAI / Panasonic R&D / BAIR Lab
+      year: "Aug - Nov 2025"
+      description:
+        - Worked on the LEGO project for zero-shot robotic grasping
+
+- title: Academic Interests
+  type: nested_list
+  contents:
+    - title: Computer Vision
+    - title: Robotics
+      items:
+        - Representation learning
+        - Transfer learning
+    - title: Multimodal Learning
+      items:
+        - Cross-modal retrieval
+        - Self Supervised learning
