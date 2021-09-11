@@ -3,3 +3,14 @@
 
 @import "{{ site.theme }}";
 
+header{
+    background-image: url(../images/background.png);
+}
+
+body{
+    background-image: url(../images/body-background.png);
+}
+
+#banner{
+    background: #35B4CE;
+}
