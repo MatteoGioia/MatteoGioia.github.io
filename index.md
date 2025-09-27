@@ -2,9 +2,10 @@
 layout: default
 ---
 
+
 # About me
 
-> Hello there! My name is Matteo and I'm a PhD student in Data Science
+Hello there! My name is Matteo and I'm a PhD student in Data Science
 
 I obtained my B.Sc. in Computer Science from the University of L'Aquila in 2021, and my M.Sc. in Computer Science from Sapienza University in 2023. I am currently working as a PhD student under the supervision of professor Fabio Galasso @ [PINLab](https://www.pinlab.org/).
 
@@ -28,6 +29,8 @@ Esplorare l’impatto e la regolamentazione delle campagne politiche online per 
 # Projects 
 
 ## Personal notes
+
+WIP!!
 
 # Contacts 
 
