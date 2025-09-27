@@ -1,10 +1,10 @@
-#theming
+title: Matteo Gioia Personal Webpage
+logo: /assets/img/logo.png
+description: A minimal website to showcase what I'm working on.
+show_downloads: true
+google_analytics:
+theme: jekyll-theme-minimal
 
-remote_theme: pages-themes/cayman@v0.2.0
+remote_theme: pages-themes/minimal@v0.2.0
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
-
-#customization
-
-title: Matteo Gioia
-description: PhD student in Data Science @ Sapienza University of Rome
