@@ -24,6 +24,14 @@ To use the Minimal theme:
     gem "github-pages", group: :jekyll_plugins
     ```
 
+3. To preview locally
+
+    ```bash
+    export PATH="/opt/homebrew/opt/ruby/bin:$PATH"    
+    bundle install
+    bundle exec jekyll serve
+    ```
+
 ## Customizing
 
 ### Configuration variables
