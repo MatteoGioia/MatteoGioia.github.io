@@ -12,12 +12,14 @@ I obtained my B.Sc. in Computer Science from the University of L'Aquila in 2021,
 
 # Publications
 
-## Something robotic!
+## LEGO 
 
 <!-- add a random robotics related image -->
-![Random robotics image](https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Fwww.inceptivemind.com%2Fwp-content%2Fuploads%2F2018%2F10%2Fxarm-1.jpg&sp=1759114145T4e5f6a8c816ea5bfc7806dd47ae8809b9368c1dec19f83f35829187f513e339e)
+![Lego Teaser](https://lego-grasp.github.io/static/figures/teaser_figure.png)
 
-Something about robotics and AI.
+LEGO introduces a novel approach to robotic manipulation by training on simple "toy" objects composed of four shape primitives (spheres, cuboids, cylinders, rings), achieving 67% real-world grasping success on YCB dataset. The key innovation is an object-centric visual representation through detection pooling, enabling strong zero-shot generalization from synthetic toys to complex real-world objects.
+
+Work done during internship @ItalAI, in collaboration with Panasonic Research & Developement Company of America and the BAIR (Berkeley AI Research) Lab at UC Berkeley.
 
 ## MonSTeR (ICCV 2025)
 
@@ -46,4 +48,4 @@ Here's a list of my contacts and social links:
 - [LinkedIn profile](https://www.linkedin.com/in/matteo-gioia-dev
 - Google Scholar: TBA
 
-
+Download my CV: [here]()
