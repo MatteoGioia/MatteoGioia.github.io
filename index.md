@@ -12,14 +12,14 @@ I obtained my B.Sc. in Computer Science from the University of L'Aquila in 2021,
 
 # Publications
 
-## LEGO 
+## LEGO (2025)
 
 <!-- add a random robotics related image -->
 ![Lego Teaser](https://lego-grasp.github.io/static/figures/teaser_figure.png)
 
-LEGO introduces a novel approach to robotic manipulation by training on simple "toy" objects composed of four shape primitives (spheres, cuboids, cylinders, rings), achieving 67% real-world grasping success on YCB dataset. The key innovation is an object-centric visual representation through detection pooling, enabling strong zero-shot generalization from synthetic toys to complex real-world objects.
+LEGO trains robots on simple "toy" objects (spheres, cuboids, cylinders, rings) to achieve 67% grasping success on real YCB objects through object-centric visual representations and zero-shot generalization.
 
-Work done during internship @ItalAI, in collaboration with Panasonic Research & Developement Company of America and the BAIR (Berkeley AI Research) Lab at UC Berkeley.
+*Work done during internship @ItalAI, with Panasonic R&D and the BAIR Lab*
 
 ## MonSTeR (ICCV 2025)
 
