@@ -1,0 +1,48 @@
+/usr/bin/docker run --name ghcrioactionsjekyllbuildpagesv1013_f6ee00 --label 084f02 --workdir /github/workspace --rm -e "INPUT_SOURCE" -e "INPUT_DESTINATION" -e "INPUT_FUTURE" -e "INPUT_BUILD_REVISION" -e "INPUT_VERBOSE" -e "INPUT_TOKEN" -e "HOME" -e "GITHUB_JOB" -e "GITHUB_REF" -e "GITHUB_SHA" -e "GITHUB_REPOSITORY" -e "GITHUB_REPOSITORY_OWNER" -e "GITHUB_REPOSITORY_OWNER_ID" -e "GITHUB_RUN_ID" -e "GITHUB_RUN_NUMBER" -e "GITHUB_RETENTION_DAYS" -e "GITHUB_RUN_ATTEMPT" -e "GITHUB_ACTOR_ID" -e "GITHUB_ACTOR" -e "GITHUB_WORKFLOW" -e "GITHUB_HEAD_REF" -e "GITHUB_BASE_REF" -e "GITHUB_EVENT_NAME" -e "GITHUB_SERVER_URL" -e "GITHUB_API_URL" -e "GITHUB_GRAPHQL_URL" -e "GITHUB_REF_NAME" -e "GITHUB_REF_PROTECTED" -e "GITHUB_REF_TYPE" -e "GITHUB_WORKFLOW_REF" -e "GITHUB_WORKFLOW_SHA" -e "GITHUB_REPOSITORY_ID" -e "GITHUB_TRIGGERING_ACTOR" -e "GITHUB_WORKSPACE" -e "GITHUB_ACTION" -e "GITHUB_EVENT_PATH" -e "GITHUB_ACTION_REPOSITORY" -e "GITHUB_ACTION_REF" -e "GITHUB_PATH" -e "GITHUB_ENV" -e "GITHUB_STEP_SUMMARY" -e "GITHUB_STATE" -e "GITHUB_OUTPUT" -e "RUNNER_OS" -e "RUNNER_ARCH" -e "RUNNER_NAME" -e "RUNNER_ENVIRONMENT" -e "RUNNER_TOOL_CACHE" -e "RUNNER_TEMP" -e "RUNNER_WORKSPACE" -e "ACTIONS_RUNTIME_URL" -e "ACTIONS_RUNTIME_TOKEN" -e "ACTIONS_CACHE_URL" -e "ACTIONS_ID_TOKEN_REQUEST_URL" -e "ACTIONS_ID_TOKEN_REQUEST_TOKEN" -e "ACTIONS_RESULTS_URL" -e "ACTIONS_ORCHESTRATION_ID" -e GITHUB_ACTIONS=true -e CI=true -v "/var/run/docker.sock":"/var/run/docker.sock" -v "/home/runner/work/_temp":"/github/runner_temp" -v "/home/runner/work/_temp/_github_home":"/github/home" -v "/home/runner/work/_temp/_github_workflow":"/github/workflow" -v "/home/runner/work/_temp/_runner_file_commands":"/github/file_commands" -v "/home/runner/work/MatteoGioia.github.io/MatteoGioia.github.io":"/github/workspace" ghcr.io/actions/jekyll-build-pages:v1.0.13
+The git source https://github.com/RobertoJBeltran/jekyll-terser.git is not yet
+checked out. Please run `bundle install` before trying to start your application
+Warning: The github-pages gem can't satisfy your Gemfile's dependencies. If you want to use a different Jekyll version or need additional dependencies, consider building Jekyll site with GitHub Actions: https://jekyllrb.com/docs/continuous-integration/github-actions/
+To use retry middleware with Faraday v2.0+, install `faraday-retry` gem
+  Liquid Exception: Liquid syntax error (line 61): Unknown tag 'toc' in /_layouts/post.liquid
+/usr/local/bundle/gems/liquid-4.0.4/lib/liquid/block.rb:38:in `unknown_tag': Liquid syntax error (line 61): Unknown tag 'toc' (Liquid::SyntaxError)
+	from /usr/local/bundle/gems/liquid-4.0.4/lib/liquid/tags/if.rb:38:in `unknown_tag'
+	from /usr/local/bundle/gems/liquid-4.0.4/lib/liquid/block.rb:68:in `block in parse_body'
+	from /usr/local/bundle/gems/liquid-4.0.4/lib/liquid/block_body.rb:32:in `parse'
+	from /usr/local/bundle/gems/liquid-4.0.4/lib/liquid/block.rb:58:in `parse_body'
+	from /usr/local/bundle/gems/liquid-4.0.4/lib/liquid/tags/if.rb:30:in `parse'
+	from /usr/local/bundle/gems/liquid-4.0.4/lib/liquid/tag.rb:10:in `parse'
+	from /usr/local/bundle/gems/liquid-4.0.4/lib/liquid/block_body.rb:34:in `parse'
+	from /usr/local/bundle/gems/liquid-4.0.4/lib/liquid/document.rb:10:in `parse'
+	from /usr/local/bundle/gems/liquid-4.0.4/lib/liquid/document.rb:5:in `parse'
+	from /usr/local/bundle/gems/liquid-4.0.4/lib/liquid/template.rb:130:in `parse'
+	from /usr/local/bundle/gems/liquid-4.0.4/lib/liquid/template.rb:114:in `parse'
+	from /usr/local/bundle/gems/jekyll-3.10.0/lib/jekyll/liquid_renderer/file.rb:13:in `block in parse'
+	from /usr/local/bundle/gems/jekyll-3.10.0/lib/jekyll/liquid_renderer/file.rb:49:in `measure_time'
+	from /usr/local/bundle/gems/jekyll-3.10.0/lib/jekyll/liquid_renderer/file.rb:12:in `parse'
+	from /usr/local/bundle/gems/jekyll-3.10.0/lib/jekyll/renderer.rb:121:in `render_liquid'
+	from /usr/local/bundle/gems/jekyll-3.10.0/lib/jekyll/renderer.rb:195:in `render_layout'
+	from /usr/local/bundle/gems/jekyll-3.10.0/lib/jekyll/renderer.rb:158:in `place_in_layouts'
+	from /usr/local/bundle/gems/jekyll-3.10.0/lib/jekyll/renderer.rb:88:in `render_document'
+	from /usr/local/bundle/gems/jekyll-3.10.0/lib/jekyll/renderer.rb:62:in `run'
+	from /usr/local/bundle/gems/jekyll-3.10.0/lib/jekyll/site.rb:479:in `render_regenerated'
+	from /usr/local/bundle/gems/jekyll-3.10.0/lib/jekyll/site.rb:464:in `block (2 levels) in render_docs'
+	from /usr/local/bundle/gems/jekyll-3.10.0/lib/jekyll/site.rb:463:in `each'
+	from /usr/local/bundle/gems/jekyll-3.10.0/lib/jekyll/site.rb:463:in `block in render_docs'
+	from /usr/local/bundle/gems/jekyll-3.10.0/lib/jekyll/site.rb:462:in `each_value'
+	from /usr/local/bundle/gems/jekyll-3.10.0/lib/jekyll/site.rb:462:in `render_docs'
+	from /usr/local/bundle/gems/jekyll-3.10.0/lib/jekyll/site.rb:191:in `render'
+	from /usr/local/bundle/gems/jekyll-3.10.0/lib/jekyll/site.rb:71:in `process'
+	from /usr/local/bundle/gems/jekyll-3.10.0/lib/jekyll/command.rb:28:in `process_site'
+	from /usr/local/bundle/gems/jekyll-3.10.0/lib/jekyll/commands/build.rb:65:in `build'
+	from /usr/local/bundle/gems/jekyll-3.10.0/lib/jekyll/commands/build.rb:36:in `process'
+	from /usr/local/bundle/gems/github-pages-232/bin/github-pages:70:in `block (3 levels) in <top (required)>'
+	from /usr/local/bundle/gems/mercenary-0.3.6/lib/mercenary/command.rb:220:in `block in execute'
+	from /usr/local/bundle/gems/mercenary-0.3.6/lib/mercenary/command.rb:220:in `each'
+	from /usr/local/bundle/gems/mercenary-0.3.6/lib/mercenary/command.rb:220:in `execute'
+	from /usr/local/bundle/gems/mercenary-0.3.6/lib/mercenary/program.rb:42:in `go'
+	from /usr/local/bundle/gems/mercenary-0.3.6/lib/mercenary.rb:19:in `program'
+	from /usr/local/bundle/gems/github-pages-232/bin/github-pages:6:in `<top (required)>'
+	from /usr/local/bundle/bin/github-pages:25:in `load'
+	from /usr/local/bundle/bin/github-pages:25:in `<main>'
+Error:  Logging at level: debug Configuration file: /github/workspace/./_config.yml GitHub Pages: github-pages v232 GitHub Pages: jekyll v3.10.0 Theme: jekyll-theme-primer Theme source: /usr/local/bundle/gems/jekyll-theme-primer-0.6.0 Requiring: jekyll-github-metadata Requiring: jekyll-seo-tag Requiring: jekyll-feed Requiring: jekyll-sitemap Requiring: jemoji Requiring: jekyll-coffeescript Requiring: jekyll-commonmark-ghpages Requiring: jekyll-gist Requiring: jekyll-github-metadata Requiring: jekyll-paginate Requiring: jekyll-relative-links Requiring: jekyll-optional-front-matter Requiring: jekyll-readme-index Requiring: jekyll-default-layout Requiring: jekyll-titles-from-headings GitHub Metadata: Initializing... Source: /github/workspace/. Destination: /github/workspace/./_site Incremental build: disabled. Enable with --incremental Generating... EntryFilter: excluded /purgecss.config.js EntryFilter: excluded /Gemfile EntryFilter: excluded /package-lock.json EntryFilter: excluded /package.json Reading: _posts/2025-01-01-welcome.md Reading: _news/announcement_1.md Reading: _news/announcement_2.md Reading: _projects/1_project.md Generating: JekyllOptionalFrontMatter::Generator finished in 0.000141258 seconds. Generating: JekyllReadmeIndex::Generator finished in 0.000103644 seconds. Jekyll Feed: Generating feed for posts Generating: JekyllFeed::Generator finished in 0.000530121 seconds. Generating: Jekyll::JekyllSitemap finished in 0.001908535 seconds. Generating: Jekyll::Paginate::Pagination finished in 5.033e-06 seconds. Generating: JekyllRelativeLinks::Generator finished in 0.000423616 seconds. Generating: JekyllDefaultLayout::Generator finished in 0.000234777 seconds. Requiring: kramdown-parser-gfm Generating: JekyllTitlesFromHeadings::Generator finished in 0.006360492 seconds. Rendering: _posts/2025-01-01-welcome.md Pre-Render Hooks: _posts/2025-01-01-welcome.md Rendering Markup: _posts/2025-01-01-welcome.md Rendering Layout: _posts/2025-01-01-welcome.md Layout source: site github-pages 232 | Error: Liquid syntax error (line 61): Unknown tag 'toc' 
+
