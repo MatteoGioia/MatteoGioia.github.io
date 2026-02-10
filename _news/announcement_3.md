@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-LEGO accepted at **ICRA 2026**!
+LEGO accepted at **ICLR 2026**!
