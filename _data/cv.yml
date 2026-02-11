@@ -11,22 +11,22 @@
   contents:
     - title: PhD in Data Science
       institution: Sapienza University of Rome, Italy
-      year: november 2023 - present
+      year:  2023-11 - present
       description:
         - Supervised by Prof. Fabio Galasso (PINLab)
     - title: M.Sc. in Computer Science
       institution: Sapienza University of Rome, Italy
-      year: october 2021 -october 2023
+      year:  2021-10 - 2023-10
     - title: B.Sc. in Computer Science
       institution: University of L'Aquila, Italy
-      year: september 2018 - october 2021
+      year: 2018-09 - 2021-10
 
 - title: Experience
   type: time_table
   contents:
     - title: Research Intern
       institution: ItalAI / Panasonic R&D / BAIR Lab
-      year: august 2025 - november 2025
+      year: 2025-08 - 2025-11
       description:
         - Worked on the LEGO project for zero-shot robotic grasping
 
