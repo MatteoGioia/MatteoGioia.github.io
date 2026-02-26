@@ -53,15 +53,31 @@ og_image:
 
 # -----------------------------------------------------------------------------
 # Analytics
-# -----------------------------------------------------------------------------
+# ------------------------------------------------------MDEwOlJlcG9zaXRvcnk0MDQ4NjYyNTU= -----------------------
 
-google_analytics:
+google_analytics: false
 enable_google_analytics: false
 enable_cronitor_analytics: false
 enable_pirsch_analytics: false
 enable_openpanel_analytics: false
 enable_google_verification: false
 enable_bing_verification: false
+
+# -----------------------------------------------------------------------------
+# Comments (Giscus)
+# -----------------------------------------------------------------------------
+
+giscus:
+  repo: MatteoGioia/MatteoGioia.github.io
+  repo_id: MDEwOlJlcG9zaXRvcnk0MDQ4NjYyNTU= # PASTE YOUR REPO ID HERE (from giscus.app)
+  category: Comments
+  category_id: DIC_kwDOGCHEz84C3Qy0 # PASTE YOUR CATEGORY ID HERE (from giscus.app)
+  mapping: pathname
+  strict: 0
+  reactions_enabled: 1
+  emit_metadata: 0
+  input_position: bottom
+  lang: en
 
 # -----------------------------------------------------------------------------
 # Blog
