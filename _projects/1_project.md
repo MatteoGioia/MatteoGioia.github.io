@@ -3,7 +3,7 @@ layout: page
 title: UnitreeGO2 Interface
 description: A simplr interface for the Unitree GO2 quadruped robot.
 importance: 1
-category: robotics
+category: research
 img: https://www.unitree.com/images/b5fffd3e4fc04e6f9fcafedb9516b341_3840x2146.jpg
 ---
 
