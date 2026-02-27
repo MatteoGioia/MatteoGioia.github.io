@@ -71,7 +71,7 @@ giscus:
   repo: MatteoGioia/MatteoGioia.github.io
   repo_id: MDEwOlJlcG9zaXRvcnk0MDQ4NjYyNTU= # PASTE YOUR REPO ID HERE (from giscus.app)
   category: Comments
-  category_id: DIC_kwDOGCHEz84C3Qy0 # PASTE YOUR CATEGORY ID HERE (from giscus.app)
+  category_id: DIC_kwDOGCHEz84C3ROJ # PASTE YOUR CATEGORY ID HERE (from giscus.app)
   mapping: url
   strict: 1
   reactions_enabled: 1
